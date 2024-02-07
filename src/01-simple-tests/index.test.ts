@@ -31,7 +31,7 @@ describe('simpleCalculator tests', () => {
 
   test('should return null for invalid arguments', () => {
     expect(
-      simpleCalculator({ a: '', b: undefined, action: Action.Divide }),
+      simpleCalculator({ a: 1, b: undefined, action: Action.Divide }),
     ).toBe(null);
   });
 });
